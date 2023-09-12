@@ -15,8 +15,8 @@ function Card(props) {
           <span className="user-status">{props.item.status}</span>
         </div>
       </div>
-      <p className="card-title">{props.item.title}</p>
-      <p className="card-story">{props.item.story}</p>
+      <h2 className="card-title">{props.item.title}</h2>
+      <h6 className="card-story">{props.item.story}</h6>
     </article>
   );
 }
